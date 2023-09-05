@@ -9,12 +9,26 @@ div#interface {
     width: 900px;
     background-color: white;
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
 }
 
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    top: 70px;
+    left: 780px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url();
+
 }
 
 /* formatação de imagens com legenda */
